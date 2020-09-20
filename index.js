@@ -1,8 +1,7 @@
 
 
 
-module.exports = function fizzbuzz(values)
-{
+module.exports = function fizzbuzz(value) {
   if ( value % 15 === 0 )
   {
     return "FizzBuzz";
@@ -11,7 +10,7 @@ module.exports = function fizzbuzz(values)
   {
     return "Fizz";
   }
-  if ( vaue % 5 === 0 )
+  if ( value % 5 === 0 )
   {
     return "Buzz";
   }
