@@ -3,17 +3,17 @@
 
 module.exports = function fizzbuzz(values)
 {
-  if ( value % 15 == 0 )
+  if ( value % 15 === 0 )
   {
-    return "fizzbuzz";
+    return "FizzBuzz";
   }
-  else if ( value % 3 == 0 )
+  if ( value % 3 === 0 )
   {
-    return "fizz";
+    return "Fizz";
   }
-  else if ( vaue % 5 == 0 )
+  if ( vaue % 5 === 0 )
   {
-    reutrn "buzz";
+    return "Buzz";
   }
   return String(value);
 };
